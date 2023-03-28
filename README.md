@@ -2,10 +2,6 @@
 
 ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/Logo.jpg)
 
-## Theme Music
-Hey Ya! by OutKast
-This song has a tempo of 160 beats per minute, which is a normal heart rate when exercising.
-
 ## Synopsis 
 We have created an app that takes in health data from your phone and syncs the music you are listening to with your heartbeat. Users will link their Spotify accounts and health apps so our app can queue songs for you to listen to. This will be particularly useful for exercising. 
 
@@ -28,3 +24,9 @@ Algo-Rhythm Watch App (on Watch) | Connect to Spotify (on iPhone) | Select Playl
  ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/select_playlists.PNG)
 
 - Now you are on our main home screen! Here you can also really read your heart rate, along with play, pause, and skip forward/backward on tracks. Start moving around and working out and watch your music change with your bpm!
+
+# Meet the Team
+- Winslow Church
+- Ruth Negate
+- Shirley Cheng
+- Marc Huo
