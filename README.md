@@ -1,5 +1,5 @@
 # Algo-Rhythm
-By Winslow Church, Ruth Negate, Shirley Cheng, Marc Huo
+By Ruth Negate, Winslow Church, Shirley Cheng, Marc Huo
 
 ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/Logo.jpg)
 
