@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BE30F029B493DF0063300C /* Regressor in Frameworks */ = {isa = PBXBuildFile; productRef = 84BE30EF29B493DF0063300C /* Regressor */; };
+		84C61D5A29B50DF6004E6FCC /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 84C61D5929B50DF6004E6FCC /* DequeModule */; };
+		9602AB1329A43A0300ECD3FA /* JSONDecoders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9602AB1229A43A0300ECD3FA /* JSONDecoders.swift */; };
+		9630F7D4299A18000041A73C /* Algo_RhythmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630F7D3299A18000041A73C /* Algo_RhythmApp.swift */; };
+		9630F7D6299A18000041A73C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630F7D5299A18000041A73C /* ContentView.swift */; };
+		9630F7D8299A18020041A73C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630F7D7299A18020041A73C /* Assets.xcassets */; };
+		9630F7DB299A18020041A73C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9630F7DA299A18020041A73C /* Preview Assets.xcassets */; };
+		9630F7E5299A18020041A73C /* Algo_RhythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630F7E4299A18020041A73C /* Algo_RhythmTests.swift */; };
+		9630F7EF299A18020041A73C /* Algo_RhythmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630F7EE299A18020041A73C /* Algo_RhythmUITests.swift */; };
+		9630F7F1299A18020041A73C /* Algo_RhythmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630F7F0299A18020041A73C /* Algo_RhythmUITestsLaunchTests.swift */; };
+		9630F7FE299A182C0041A73C /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9630F7FD299A182C0041A73C /* SpotifyiOS.framework */; };
+		9630F804299A31710041A73C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9630F803299A31710041A73C /* AppDelegate.swift */; };
+		96685A6B29ADF6FE000897F2 /* Algo_Rhythm_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96685A6A29ADF6FE000897F2 /* Algo_Rhythm_WatchApp.swift */; };
+		96685A6D29ADF6FE000897F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96685A6C29ADF6FE000897F2 /* ContentView.swift */; };
+		96685A6F29ADF6FF000897F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96685A6E29ADF6FF000897F2 /* Assets.xcassets */; };
+		96685A7229ADF6FF000897F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96685A7129ADF6FF000897F2 /* Preview Assets.xcassets */; };
+		96685A7C29ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96685A7B29ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppTests.swift */; };
+		96685A8629ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96685A8529ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppUITests.swift */; };
+		96685A8829ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96685A8729ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppUITestsLaunchTests.swift */; };
+		96685A9629ADFB0E000897F2 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96685A9529ADFB0E000897F2 /* WatchConnectivityManager.swift */; };
+		96685A9729ADFB0E000897F2 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96685A9529ADFB0E000897F2 /* WatchConnectivityManager.swift */; };
+		96685A9929ADFBA7000897F2 /* Algo-Rhythm Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 96685A6829ADF6FE000897F2 /* Algo-Rhythm Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9689A07B299C7345008F9082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9689A07A299C7345008F9082 /* SceneDelegate.swift */; };
+		A3EFE3CA29A2B9300005640C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EFE3C929A2B9300005640C /* Launch Screen.storyboard */; };
+		A3EFE3CB29A2B9300005640C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EFE3C929A2B9300005640C /* Launch Screen.storyboard */; };
+		A3EFE3CC29A2B9300005640C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EFE3C929A2B9300005640C /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9630F7E1299A18020041A73C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9630F7C8299A18000041A73C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9630F7CF299A18000041A73C;
+			remoteInfo = "Algo-Rhythm";
+		};
+		9630F7EB299A18020041A73C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9630F7C8299A18000041A73C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9630F7CF299A18000041A73C;
+			remoteInfo = "Algo-Rhythm";
+		};
+		96685A7829ADF6FF000897F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9630F7C8299A18000041A73C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96685A6729ADF6FE000897F2;
+			remoteInfo = "Algo-Rhythm Watch Watch App";
+		};
+		96685A8229ADF6FF000897F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9630F7C8299A18000041A73C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96685A6729ADF6FE000897F2;
+			remoteInfo = "Algo-Rhythm Watch Watch App";
+		};
+		96685A9A29ADFBA7000897F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9630F7C8299A18000041A73C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96685A6729ADF6FE000897F2;
+			remoteInfo = "Algo-Rhythm Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96685A9C29ADFBA7000897F2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				96685A9929ADFBA7000897F2 /* Algo-Rhythm Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84B8EB7C29A0045800EFE4B2 /* Algo-Rhythm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Algo-Rhythm.entitlements"; sourceTree = "<group>"; };
+		9602AB1229A43A0300ECD3FA /* JSONDecoders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoders.swift; sourceTree = "<group>"; };
+		9630F7D0299A18000041A73C /* Algo-Rhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algo-Rhythm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9630F7D3299A18000041A73C /* Algo_RhythmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algo_RhythmApp.swift; sourceTree = "<group>"; };
+		9630F7D5299A18000041A73C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9630F7D7299A18020041A73C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9630F7DA299A18020041A73C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9630F7E0299A18020041A73C /* Algo-RhythmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algo-RhythmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9630F7E4299A18020041A73C /* Algo_RhythmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algo_RhythmTests.swift; sourceTree = "<group>"; };
+		9630F7EA299A18020041A73C /* Algo-RhythmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algo-RhythmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9630F7EE299A18020041A73C /* Algo_RhythmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algo_RhythmUITests.swift; sourceTree = "<group>"; };
+		9630F7F0299A18020041A73C /* Algo_RhythmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algo_RhythmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9630F7FD299A182C0041A73C /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		9630F7FF299A1CB10041A73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9630F800299A2E890041A73C /* Algo-Rhythm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Algo-Rhythm-Bridging-Header.h"; sourceTree = "<group>"; };
+		9630F803299A31710041A73C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96685A6829ADF6FE000897F2 /* Algo-Rhythm Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algo-Rhythm Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96685A6A29ADF6FE000897F2 /* Algo_Rhythm_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algo_Rhythm_WatchApp.swift; sourceTree = "<group>"; };
+		96685A6C29ADF6FE000897F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96685A6E29ADF6FF000897F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96685A7129ADF6FF000897F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96685A7729ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algo-Rhythm Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96685A7B29ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algo_Rhythm_Watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		96685A8129ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algo-Rhythm Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96685A8529ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algo_Rhythm_Watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		96685A8729ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algo_Rhythm_Watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96685A9229ADF810000897F2 /* Algo-Rhythm Watch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Algo-Rhythm Watch Watch App.entitlements"; sourceTree = "<group>"; };
+		96685A9329ADFA38000897F2 /* Algo-Rhythm-Watch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Algo-Rhythm-Watch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		96685A9529ADFB0E000897F2 /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = "<group>"; };
+		9689A07A299C7345008F9082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3EFE3C929A2B9300005640C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9630F7CD299A18000041A73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9630F7FE299A182C0041A73C /* SpotifyiOS.framework in Frameworks */,
+				84BE30F029B493DF0063300C /* Regressor in Frameworks */,
+				84C61D5A29B50DF6004E6FCC /* DequeModule in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9630F7DD299A18020041A73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9630F7E7299A18020041A73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96685A6529ADF6FE000897F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96685A7429ADF6FF000897F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96685A7E29ADF6FF000897F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9630F7C7299A18000041A73C = {
+			isa = PBXGroup;
+			children = (
+				96685A9429ADFABB000897F2 /* WatchConnectivity */,
+				A3EFE3C929A2B9300005640C /* Launch Screen.storyboard */,
+				9630F7D2299A18000041A73C /* Algo-Rhythm */,
+				9630F7E3299A18020041A73C /* Algo-RhythmTests */,
+				9630F7ED299A18020041A73C /* Algo-RhythmUITests */,
+				96685A6929ADF6FE000897F2 /* Algo-Rhythm Watch Watch App */,
+				96685A7A29ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppTests */,
+				96685A8429ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppUITests */,
+				9630F7D1299A18000041A73C /* Products */,
+				96685A9829ADFBA7000897F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9630F7D1299A18000041A73C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9630F7D0299A18000041A73C /* Algo-Rhythm.app */,
+				9630F7E0299A18020041A73C /* Algo-RhythmTests.xctest */,
+				9630F7EA299A18020041A73C /* Algo-RhythmUITests.xctest */,
+				96685A6829ADF6FE000897F2 /* Algo-Rhythm Watch Watch App.app */,
+				96685A7729ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppTests.xctest */,
+				96685A8129ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9630F7D2299A18000041A73C /* Algo-Rhythm */ = {
+			isa = PBXGroup;
+			children = (
+				84B8EB7C29A0045800EFE4B2 /* Algo-Rhythm.entitlements */,
+				9630F7FF299A1CB10041A73C /* Info.plist */,
+				9630F7D3299A18000041A73C /* Algo_RhythmApp.swift */,
+				9630F7D5299A18000041A73C /* ContentView.swift */,
+				9630F7D7299A18020041A73C /* Assets.xcassets */,
+				9630F7D9299A18020041A73C /* Preview Content */,
+				9630F800299A2E890041A73C /* Algo-Rhythm-Bridging-Header.h */,
+				9630F803299A31710041A73C /* AppDelegate.swift */,
+				9689A07A299C7345008F9082 /* SceneDelegate.swift */,
+				9602AB1229A43A0300ECD3FA /* JSONDecoders.swift */,
+			);
+			path = "Algo-Rhythm";
+			sourceTree = "<group>";
+		};
+		9630F7D9299A18020041A73C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9630F7DA299A18020041A73C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9630F7E3299A18020041A73C /* Algo-RhythmTests */ = {
+			isa = PBXGroup;
+			children = (
+				9630F7E4299A18020041A73C /* Algo_RhythmTests.swift */,
+			);
+			path = "Algo-RhythmTests";
+			sourceTree = "<group>";
+		};
+		9630F7ED299A18020041A73C /* Algo-RhythmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9630F7FD299A182C0041A73C /* SpotifyiOS.framework */,
+				9630F7EE299A18020041A73C /* Algo_RhythmUITests.swift */,
+				9630F7F0299A18020041A73C /* Algo_RhythmUITestsLaunchTests.swift */,
+			);
+			path = "Algo-RhythmUITests";
+			sourceTree = "<group>";
+		};
+		96685A6929ADF6FE000897F2 /* Algo-Rhythm Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				96685A9329ADFA38000897F2 /* Algo-Rhythm-Watch-Watch-App-Info.plist */,
+				96685A9229ADF810000897F2 /* Algo-Rhythm Watch Watch App.entitlements */,
+				96685A6A29ADF6FE000897F2 /* Algo_Rhythm_WatchApp.swift */,
+				96685A6C29ADF6FE000897F2 /* ContentView.swift */,
+				96685A6E29ADF6FF000897F2 /* Assets.xcassets */,
+				96685A7029ADF6FF000897F2 /* Preview Content */,
+			);
+			path = "Algo-Rhythm Watch Watch App";
+			sourceTree = "<group>";
+		};
+		96685A7029ADF6FF000897F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96685A7129ADF6FF000897F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96685A7A29ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				96685A7B29ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppTests.swift */,
+			);
+			path = "Algo-Rhythm Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		96685A8429ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96685A8529ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppUITests.swift */,
+				96685A8729ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Algo-Rhythm Watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		96685A9429ADFABB000897F2 /* WatchConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				96685A9529ADFB0E000897F2 /* WatchConnectivityManager.swift */,
+			);
+			path = WatchConnectivity;
+			sourceTree = "<group>";
+		};
+		96685A9829ADFBA7000897F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9630F7CF299A18000041A73C /* Algo-Rhythm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9630F7F4299A18020041A73C /* Build configuration list for PBXNativeTarget "Algo-Rhythm" */;
+			buildPhases = (
+				9630F7CC299A18000041A73C /* Sources */,
+				9630F7CD299A18000041A73C /* Frameworks */,
+				9630F7CE299A18000041A73C /* Resources */,
+				96685A9C29ADFBA7000897F2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96685A9B29ADFBA7000897F2 /* PBXTargetDependency */,
+			);
+			name = "Algo-Rhythm";
+			packageProductDependencies = (
+				84BE30EF29B493DF0063300C /* Regressor */,
+				84C61D5929B50DF6004E6FCC /* DequeModule */,
+			);
+			productName = "Algo-Rhythm";
+			productReference = 9630F7D0299A18000041A73C /* Algo-Rhythm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9630F7DF299A18020041A73C /* Algo-RhythmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9630F7F7299A18020041A73C /* Build configuration list for PBXNativeTarget "Algo-RhythmTests" */;
+			buildPhases = (
+				9630F7DC299A18020041A73C /* Sources */,
+				9630F7DD299A18020041A73C /* Frameworks */,
+				9630F7DE299A18020041A73C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9630F7E2299A18020041A73C /* PBXTargetDependency */,
+			);
+			name = "Algo-RhythmTests";
+			productName = "Algo-RhythmTests";
+			productReference = 9630F7E0299A18020041A73C /* Algo-RhythmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9630F7E9299A18020041A73C /* Algo-RhythmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9630F7FA299A18020041A73C /* Build configuration list for PBXNativeTarget "Algo-RhythmUITests" */;
+			buildPhases = (
+				9630F7E6299A18020041A73C /* Sources */,
+				9630F7E7299A18020041A73C /* Frameworks */,
+				9630F7E8299A18020041A73C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9630F7EC299A18020041A73C /* PBXTargetDependency */,
+			);
+			name = "Algo-RhythmUITests";
+			productName = "Algo-RhythmUITests";
+			productReference = 9630F7EA299A18020041A73C /* Algo-RhythmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		96685A6729ADF6FE000897F2 /* Algo-Rhythm Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96685A8F29ADF6FF000897F2 /* Build configuration list for PBXNativeTarget "Algo-Rhythm Watch Watch App" */;
+			buildPhases = (
+				96685A6429ADF6FE000897F2 /* Sources */,
+				96685A6529ADF6FE000897F2 /* Frameworks */,
+				96685A6629ADF6FE000897F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Algo-Rhythm Watch Watch App";
+			productName = "Algo-Rhythm Watch Watch App";
+			productReference = 96685A6829ADF6FE000897F2 /* Algo-Rhythm Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96685A7629ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96685A9029ADF6FF000897F2 /* Build configuration list for PBXNativeTarget "Algo-Rhythm Watch Watch AppTests" */;
+			buildPhases = (
+				96685A7329ADF6FF000897F2 /* Sources */,
+				96685A7429ADF6FF000897F2 /* Frameworks */,
+				96685A7529ADF6FF000897F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96685A7929ADF6FF000897F2 /* PBXTargetDependency */,
+			);
+			name = "Algo-Rhythm Watch Watch AppTests";
+			productName = "Algo-Rhythm Watch Watch AppTests";
+			productReference = 96685A7729ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96685A8029ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96685A9129ADF6FF000897F2 /* Build configuration list for PBXNativeTarget "Algo-Rhythm Watch Watch AppUITests" */;
+			buildPhases = (
+				96685A7D29ADF6FF000897F2 /* Sources */,
+				96685A7E29ADF6FF000897F2 /* Frameworks */,
+				96685A7F29ADF6FF000897F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96685A8329ADF6FF000897F2 /* PBXTargetDependency */,
+			);
+			name = "Algo-Rhythm Watch Watch AppUITests";
+			productName = "Algo-Rhythm Watch Watch AppUITests";
+			productReference = 96685A8129ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9630F7C8299A18000041A73C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9630F7CF299A18000041A73C = {
+						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
+					};
+					9630F7DF299A18020041A73C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 9630F7CF299A18000041A73C;
+					};
+					9630F7E9299A18020041A73C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 9630F7CF299A18000041A73C;
+					};
+					96685A6729ADF6FE000897F2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					96685A7629ADF6FF000897F2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 96685A6729ADF6FE000897F2;
+					};
+					96685A8029ADF6FF000897F2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 96685A6729ADF6FE000897F2;
+					};
+				};
+			};
+			buildConfigurationList = 9630F7CB299A18000041A73C /* Build configuration list for PBXProject "Algo-Rhythm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9630F7C7299A18000041A73C;
+			packageReferences = (
+				84BE30EE29B493DF0063300C /* XCRemoteSwiftPackageReference "SwiftRegressor" */,
+				84C61D5829B50DF6004E6FCC /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			productRefGroup = 9630F7D1299A18000041A73C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9630F7CF299A18000041A73C /* Algo-Rhythm */,
+				9630F7DF299A18020041A73C /* Algo-RhythmTests */,
+				9630F7E9299A18020041A73C /* Algo-RhythmUITests */,
+				96685A6729ADF6FE000897F2 /* Algo-Rhythm Watch Watch App */,
+				96685A7629ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppTests */,
+				96685A8029ADF6FF000897F2 /* Algo-Rhythm Watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9630F7CE299A18000041A73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EFE3CA29A2B9300005640C /* Launch Screen.storyboard in Resources */,
+				9630F7DB299A18020041A73C /* Preview Assets.xcassets in Resources */,
+				9630F7D8299A18020041A73C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9630F7DE299A18020041A73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EFE3CB29A2B9300005640C /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9630F7E8299A18020041A73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EFE3CC29A2B9300005640C /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96685A6629ADF6FE000897F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96685A7229ADF6FF000897F2 /* Preview Assets.xcassets in Resources */,
+				96685A6F29ADF6FF000897F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96685A7529ADF6FF000897F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96685A7F29ADF6FF000897F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9630F7CC299A18000041A73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9630F804299A31710041A73C /* AppDelegate.swift in Sources */,
+				9630F7D6299A18000041A73C /* ContentView.swift in Sources */,
+				9602AB1329A43A0300ECD3FA /* JSONDecoders.swift in Sources */,
+				9630F7D4299A18000041A73C /* Algo_RhythmApp.swift in Sources */,
+				96685A9629ADFB0E000897F2 /* WatchConnectivityManager.swift in Sources */,
+				9689A07B299C7345008F9082 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9630F7DC299A18020041A73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9630F7E5299A18020041A73C /* Algo_RhythmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9630F7E6299A18020041A73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9630F7EF299A18020041A73C /* Algo_RhythmUITests.swift in Sources */,
+				9630F7F1299A18020041A73C /* Algo_RhythmUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96685A6429ADF6FE000897F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96685A6D29ADF6FE000897F2 /* ContentView.swift in Sources */,
+				96685A9729ADFB0E000897F2 /* WatchConnectivityManager.swift in Sources */,
+				96685A6B29ADF6FE000897F2 /* Algo_Rhythm_WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96685A7329ADF6FF000897F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96685A7C29ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96685A7D29ADF6FF000897F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96685A8629ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppUITests.swift in Sources */,
+				96685A8829ADF6FF000897F2 /* Algo_Rhythm_Watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9630F7E2299A18020041A73C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9630F7CF299A18000041A73C /* Algo-Rhythm */;
+			targetProxy = 9630F7E1299A18020041A73C /* PBXContainerItemProxy */;
+		};
+		9630F7EC299A18020041A73C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9630F7CF299A18000041A73C /* Algo-Rhythm */;
+			targetProxy = 9630F7EB299A18020041A73C /* PBXContainerItemProxy */;
+		};
+		96685A7929ADF6FF000897F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96685A6729ADF6FE000897F2 /* Algo-Rhythm Watch Watch App */;
+			targetProxy = 96685A7829ADF6FF000897F2 /* PBXContainerItemProxy */;
+		};
+		96685A8329ADF6FF000897F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96685A6729ADF6FE000897F2 /* Algo-Rhythm Watch Watch App */;
+			targetProxy = 96685A8229ADF6FF000897F2 /* PBXContainerItemProxy */;
+		};
+		96685A9B29ADFBA7000897F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96685A6729ADF6FE000897F2 /* Algo-Rhythm Watch Watch App */;
+			targetProxy = 96685A9A29ADFBA7000897F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9630F7F2299A18020041A73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9630F7F3299A18020041A73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9630F7F5299A18020041A73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Algo-Rhythm/Algo-Rhythm.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Algo-Rhythm/Preview Content\"";
+				DEVELOPMENT_TEAM = 38GM3Y83B2;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Algo-RhythmUITests",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Algo-Rhythm/Info.plist";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Allow app to read heart rate";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow app to read heart rate";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Allow app to update heart rate";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-Rhythm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Algo-Rhythm/Algo-Rhythm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9630F7F6299A18020041A73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Algo-Rhythm/Algo-Rhythm.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Algo-Rhythm/Preview Content\"";
+				DEVELOPMENT_TEAM = 38GM3Y83B2;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Algo-RhythmUITests",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Algo-Rhythm/Info.plist";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Allow app to read heart rate";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow app to read heart rate";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Allow app to update heart rate";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-Rhythm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Algo-Rhythm/Algo-Rhythm-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9630F7F8299A18020041A73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-RhythmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algo-Rhythm.app/Algo-Rhythm";
+			};
+			name = Debug;
+		};
+		9630F7F9299A18020041A73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-RhythmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algo-Rhythm.app/Algo-Rhythm";
+			};
+			name = Release;
+		};
+		9630F7FB299A18020041A73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-RhythmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Algo-Rhythm";
+			};
+			name = Debug;
+		};
+		9630F7FC299A18020041A73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-RhythmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Algo-Rhythm";
+			};
+			name = Release;
+		};
+		96685A8929ADF6FF000897F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Algo-Rhythm Watch Watch App/Algo-Rhythm Watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Algo-Rhythm Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 38GM3Y83B2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Algo-Rhythm-Watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Algo-Rhythm Watch";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "For user's heartrate";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "For user's heartrate";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "For user's heartrate";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.team28.Algo-Rhythm";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-Rhythm.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		96685A8A29ADF6FF000897F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Algo-Rhythm Watch Watch App/Algo-Rhythm Watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Algo-Rhythm Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 38GM3Y83B2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Algo-Rhythm-Watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Algo-Rhythm Watch";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "For user's heartrate";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "For user's heartrate";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "For user's heartrate";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.team28.Algo-Rhythm";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-Rhythm.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		96685A8B29ADF6FF000897F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38GM3Y83B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-Rhythm-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algo-Rhythm Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Algo-Rhythm Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		96685A8C29ADF6FF000897F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38GM3Y83B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-Rhythm-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algo-Rhythm Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Algo-Rhythm Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		96685A8D29ADF6FF000897F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38GM3Y83B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-Rhythm-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Algo-Rhythm Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		96685A8E29ADF6FF000897F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38GM3Y83B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team28.Algo-Rhythm-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Algo-Rhythm Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9630F7CB299A18000041A73C /* Build configuration list for PBXProject "Algo-Rhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9630F7F2299A18020041A73C /* Debug */,
+				9630F7F3299A18020041A73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9630F7F4299A18020041A73C /* Build configuration list for PBXNativeTarget "Algo-Rhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9630F7F5299A18020041A73C /* Debug */,
+				9630F7F6299A18020041A73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9630F7F7299A18020041A73C /* Build configuration list for PBXNativeTarget "Algo-RhythmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9630F7F8299A18020041A73C /* Debug */,
+				9630F7F9299A18020041A73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9630F7FA299A18020041A73C /* Build configuration list for PBXNativeTarget "Algo-RhythmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9630F7FB299A18020041A73C /* Debug */,
+				9630F7FC299A18020041A73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96685A8F29ADF6FF000897F2 /* Build configuration list for PBXNativeTarget "Algo-Rhythm Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96685A8929ADF6FF000897F2 /* Debug */,
+				96685A8A29ADF6FF000897F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96685A9029ADF6FF000897F2 /* Build configuration list for PBXNativeTarget "Algo-Rhythm Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96685A8B29ADF6FF000897F2 /* Debug */,
+				96685A8C29ADF6FF000897F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96685A9129ADF6FF000897F2 /* Build configuration list for PBXNativeTarget "Algo-Rhythm Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96685A8D29ADF6FF000897F2 /* Debug */,
+				96685A8E29ADF6FF000897F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84BE30EE29B493DF0063300C /* XCRemoteSwiftPackageReference "SwiftRegressor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openalloc/SwiftRegressor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		84C61D5829B50DF6004E6FCC /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84BE30EF29B493DF0063300C /* Regressor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84BE30EE29B493DF0063300C /* XCRemoteSwiftPackageReference "SwiftRegressor" */;
+			productName = Regressor;
+		};
+		84C61D5929B50DF6004E6FCC /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84C61D5829B50DF6004E6FCC /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9630F7C8299A18000041A73C /* Project object */;
+}
