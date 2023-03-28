@@ -1,4 +1,5 @@
 # Algo-Rhythm
+By Winslow Church, Ruth Negate, Shirley Cheng, Marc Huo
 
 ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/Logo.jpg)
 
@@ -9,9 +10,3 @@ We have created an app that takes in health data from your phone and syncs the m
 Algo-Rhythm Watch App (on Watch) | Connect to Spotify (on iPhone) | Select Playlist (on iPhone) | Home Screen (on iPhone)
 :-------------------------:|:-------------------------: | :-------------------------: | :-------------------------:
 ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/watch.PNG) | ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/home2.PNG) | ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/home3.PNG) | ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/home4.PNG)
-
-# Meet the Team
-- Winslow Church
-- Ruth Negate
-- Shirley Cheng
-- Marc Huo
