@@ -9,4 +9,4 @@ We have created an app that takes in health data from your phone and syncs the m
 ## Preview
 Algo-Rhythm Watch App (on Watch) | Connect to Spotify (on iPhone) | Select Playlist (on iPhone) | Home Screen (on iPhone)
 :-------------------------:|:-------------------------: | :-------------------------: | :-------------------------:
-![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/watch.PNG) | ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/home2.PNG) | ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/home3.PNG) | ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/home4.PNG)
+![](https://github.com/winslowchurch/Algo-Rhythm/tree/main/images/watch.PNG) | ![](https://github.com/winslowchurch/Algo-Rhythm/tree/main/imageshome2.PNG) | ![](https://github.com/StanfordCS194/win2023-team28/blob/main/images/home3.PNG) | ![](https://github.com/winslowchurch/Algo-Rhythm/tree/main/images/home4.PNG)
